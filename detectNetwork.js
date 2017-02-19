@@ -57,6 +57,14 @@ var detectNetwork = function(cardNumber) {
       console.log('MasterCard');
       return 'MasterCard'; 
     }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='0'&& cardNumber[2]==='1'&& cardNumber[3]==='1'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='0'&& cardNumber[2]==='1'&& cardNumber[3]==='1'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
   // Note: `cardNumber` will always be a string
   // The Diner's Club network always starts with a 38 or 39 and is 14 digits long
   // The American Express network always starts with a 34 or 37 and is 15 digits long
