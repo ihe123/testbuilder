@@ -106,7 +106,7 @@ describe('MasterCard', function() {
   //   http://chaijs.com/api/bdd/
   var expect = chai.expect;
  
-  it("has a prefix of 51 and a lengthlength of 16", function() {
+  it("has a prefix of 51 and a length of 16", function() {
     expect(detectNetwork('5112345678901234')).to.equal('MasterCard');
   });
  
