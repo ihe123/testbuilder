@@ -155,6 +155,48 @@ describe('Discover', function() {
   it('has a prefix of 6011 and a length of 19', function (){
     assert(detectNetwork("6011123412341234123")==="Discover");
   });
+  it('has a prefix of 644 and a length of 16', function (){
+    assert(detectNetwork("6441234123412341")==="Discover");
+  });
+  it('has a prefix of 644 and a length of 19', function (){
+    assert(detectNetwork("6441234123412341234")==="Discover");
+  });
+  it('has a prefix of 645 and a length of 16', function (){
+    assert(detectNetwork("6451234123412341")==="Discover");
+  });
+  it('has a prefix of 645 and a length of 19', function (){
+    assert(detectNetwork("6451234123412341234")==="Discover");
+  });
+  it('has a prefix of 646 and a length of 16', function (){
+    assert(detectNetwork("6461234123412341")==="Discover");
+  });
+  it('has a prefix of 646 and a length of 19', function (){
+    assert(detectNetwork("6461234123412341234")==="Discover");
+  });
+  it('has a prefix of 647 and a length of 16', function (){
+    assert(detectNetwork("6471234123412341")==="Discover");
+  });
+  it('has a prefix of 647 and a length of 19', function (){
+    assert(detectNetwork("6471234123412341234")==="Discover");
+  });
+  it('has a prefix of 648 and a length of 16', function (){
+    assert(detectNetwork("6481234123412341")==="Discover");
+  });
+  it('has a prefix of 648 and a length of 19', function (){
+    assert(detectNetwork("6481234123412341234")==="Discover");
+  });
+  it('has a prefix of 649 and a length of 16', function (){
+    assert(detectNetwork("6491234123412341")==="Discover");
+  });
+  it('has a prefix of 649 and a length of 19', function (){
+    assert(detectNetwork("6491234123412341234")==="Discover");
+  });
+  it('has a prefix of 65 and a length of 16', function (){
+    assert(detectNetwork("6512341234123412")==="Discover");
+  });
+  it('has a prefix of 65 and a length of 19', function (){
+    assert(detectNetwork("6512341234123412345")==="Discover");
+  });
 });
 
 describe('Maestro', function() {
@@ -261,5 +303,7 @@ describe('Maestro', function() {
   // Write full test coverage for the Maestro card
 });
 
-describe('should support China UnionPay')
+describe('should support China UnionPay', function (){
+  var assert = chai.assert;
+});
 describe('should support Switch')
