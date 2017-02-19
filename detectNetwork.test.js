@@ -211,7 +211,7 @@ describe('Maestro', function() {
     detectNetwork("50181234123412").should.equal("Maestro")
   });
    it ('has a prefix of 5018 and a length of 15', function(){
-  detectNetwork("501812341234123.should.equal(").should.equal("Maestro")
+  detectNetwork("501812341234123").should.equal("Maestro")
   });
   it ('has a prefix of 5018 and a length of 16', function(){
     detectNetwork("5018123412341234").should.equal("Maestro")
