@@ -86,15 +86,15 @@ describe('Visa', function() {
   var should = chai.should();
 
   it('has a prefix of 4 and a length of 13', function() {
-    assert(detectNetwork('4123456789012') === 'Visa');
+    detectNetwork('4123456789012').should.equal('Visa');
   }); 
 
   it('has a prefix of 4 and a length of 16', function() {
-    assert(detectNetwork('4123456789012345') === 'Visa');
+    detectNetwork('4123456789012345').should.equal('Visa');
   });
 
   it('has a prefix of 4 and a length of 19', function() {
-    assert(detectNetwork('4123456789012345678') === 'Visa');
+    detectNetwork('4123456789012345678').should.equal('Visa');
   });
 });
 
@@ -104,6 +104,7 @@ describe('MasterCard', function() {
   // If you want to know more, check out the documentation. 
   //   http://chaijs.com/api/bdd/
   var expect = chai.expect;
+  
  
   it("has a prefix of 51 and a length of 16", function() {
     expect(detectNetwork('5112345678901234')).to.equal('MasterCard');
