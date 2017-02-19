@@ -110,11 +110,11 @@ describe('MasterCard', function() {
     expect(detectNetwork('5112345678901234')).to.equal('MasterCard');
   });
  
-  it(FILL_ME_IN, function() {
+  it("has a prefix of 52 and a length of 16", function() {
     expect(detectNetwork('5212345678901234')).to.equal('MasterCard');
   });
  
-  it(FILL_ME_IN, function() {
+  it("has a prefix of 53 and a length of 16", function() {
     expect(detectNetwork('5312345678901234')).to.equal('MasterCard');
   });
    it("has a prefix of 54 and a length of 16", function() {
