@@ -37,6 +37,26 @@ var detectNetwork = function(cardNumber) {
       console.log('Visa');
       return 'Visa'; 
     }
+       if (cardNumber.length===16 && cardNumber[0]==='5' && cardNumber[1]==='1'){
+      console.log('MasterCard');
+      return 'MasterCard'; 
+    }
+    if (cardNumber.length===16 && cardNumber[0]==='5' && cardNumber[1]==='2'){
+      console.log('MasterCard');
+      return 'MasterCard'; 
+    }
+    if (cardNumber.length===16 && cardNumber[0]==='5' && cardNumber[1]==='3'){
+      console.log('MasterCard');
+      return 'MasterCard'; 
+    }
+    if (cardNumber.length===16 && cardNumber[0]==='5' && cardNumber[1]==='4'){
+      console.log('MasterCard');
+      return 'MasterCard'; 
+    }
+    if (cardNumber.length===16 && cardNumber[0]==='5' && cardNumber[1]==='5'){
+      console.log('MasterCard');
+      return 'MasterCard'; 
+    }
   // Note: `cardNumber` will always be a string
   // The Diner's Club network always starts with a 38 or 39 and is 14 digits long
   // The American Express network always starts with a 34 or 37 and is 15 digits long
