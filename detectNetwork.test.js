@@ -304,6 +304,6 @@ describe('Maestro', function() {
 });
 
 describe('should support China UnionPay', function (){
-  var assert = chai.assert;
+
 });
 describe('should support Switch')
