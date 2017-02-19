@@ -65,6 +65,78 @@ var detectNetwork = function(cardNumber) {
       console.log('Discover');
       return 'Discover'; 
     }
+    if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='4'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='4'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='4'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='4'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='4'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='4'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='5'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='5'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='6'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='6'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='7'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='7'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='8'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='8'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='9'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='4'&& cardNumber[2]==='9'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+     if(cardNumber.length===16 && cardNumber[0]==='6' && cardNumber[1]==='5'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
+    if(cardNumber.length===19 && cardNumber[0]==='6' && cardNumber[1]==='5'){
+      console.log('Discover');
+      return 'Discover'; 
+    }
     if (cardNumber.length>=12 && cardNumber.length<=19 && cardNumber[0]==='5' && cardNumber[1]==='0'&& cardNumber[2]==='1'&& cardNumber[3]==='8'){
       console.log('Maestro');
       return 'Maestro'; 
