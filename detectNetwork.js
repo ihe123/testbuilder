@@ -153,6 +153,19 @@ var detectNetwork = function(cardNumber) {
       console.log('Maestro');
       return 'Maestro'; 
     }
+    if(parseInt(cardNumber.substring(0,6))>=622126 && parseInt(cardNumber.substring(0,6))<=622925 && cardNumber.length>=16 && cardNumber.length<=19){
+        console.log('China UnionPay');
+        return 'China UnionPay';
+    }
+     if(parseInt(cardNumber.substring(0,3))>=624 && parseInt(cardNumber.substring(0,3))<=626 && cardNumber.length>=16 && cardNumber.length<=19){
+        console.log('China UnionPay');
+        return 'China UnionPay';
+    }
+     if(parseInt(cardNumber.substring(0,4))>=6282 && parseInt(cardNumber.substring(0,4))<=6288 && cardNumber.length>=16 && cardNumber.length<=19){
+        console.log('China UnionPay');
+        return 'China UnionPay';
+    }
+    
   // Note: `cardNumber` will always be a string
   // The Diner's Club network always starts with a 38 or 39 and is 14 digits long
   // The American Express network always starts with a 34 or 37 and is 15 digits long
