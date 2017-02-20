@@ -25,6 +25,103 @@ var detectNetwork = function(cardNumber) {
       console.log('American Express');
       return 'American Express'; 
     }
+    if(cardNumber.length===16 && parseInt(cardNumber.substring(0,4))===4903){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,4))===4903){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,4))===4903){
+      console.log('Switch');
+      return 'Switch';
+    }
+      if(cardNumber.length===16 && parseInt(cardNumber.substring(0,4))===4905){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,4))===4905){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,4))===4905){
+      console.log('Switch');
+      return 'Switch';
+    }
+      if(cardNumber.length===16 && parseInt(cardNumber.substring(0,4))===4911){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,4))===4911){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,4))===4911){
+      console.log('Switch');
+      return 'Switch';
+    }
+      if(cardNumber.length===16 && parseInt(cardNumber.substring(0,4))===4936){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,4))===4936){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,4))===4936){
+      console.log('Switch');
+      return 'Switch';
+    }
+      if(cardNumber.length===16 && parseInt(cardNumber.substring(0,4))===6333){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,4))===6333){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,4))===6333){
+      console.log('Switch');
+      return 'Switch';
+    }
+      if(cardNumber.length===16 && parseInt(cardNumber.substring(0,4))===6759){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,4))===6759){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,4))===6759){
+      console.log('Switch');
+      return 'Switch';
+    }
+      if(cardNumber.length===16 && parseInt(cardNumber.substring(0,6))===564182){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,6))===564182){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,6))===564182){
+      console.log('Switch');
+      return 'Switch';
+    }
+       if(cardNumber.length===16 && parseInt(cardNumber.substring(0,6))===633110){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===18 && parseInt(cardNumber.substring(0,6))===633110){
+      console.log('Switch');
+      return 'Switch';
+    }
+    if(cardNumber.length===19 && parseInt(cardNumber.substring(0,6))===633110){
+      console.log('Switch');
+      return 'Switch';
+    }
+    
       if (cardNumber.length===13 && cardNumber[0]==='4'){
        console.log('Visa');
         return 'Visa'; 
@@ -165,6 +262,7 @@ var detectNetwork = function(cardNumber) {
         console.log('China UnionPay');
         return 'China UnionPay';
     }
+
     
   // Note: `cardNumber` will always be a string
   // The Diner's Club network always starts with a 38 or 39 and is 14 digits long
